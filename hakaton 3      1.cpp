@@ -110,19 +110,6 @@ int main() {
                 printf("Mang Da Xep Xep Theo hu Tu Giam Dan.\n");
                 printf("\n");
                 break;
-
-            case 8:
-                printf("Ban Hay Nhap Gia Tri Can Tim: ");
-                scanf("%d", &giatri);
-                for(int i = 0; i < sophantu; i++) {
-                    if(arr[i] == giatri) {
-                        printf("Gia Tri %d Ton Tai Trong Mang.\n", giatri);
-                    } else {
-                        printf("Gia Tri %d Khong Ton Tai Trong Mang.\n", giatri);
-                    }
-                }
-                break;
-
             case 11:
                 printf("Thoat Chuong Trinh!");
                 break;
